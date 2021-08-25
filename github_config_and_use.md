@@ -35,7 +35,10 @@
 ![image-20210806112244712](images/image-20210806112244712.png)
 
 windows的配置(~/.ssh/config or C:\Users\win10\.ssh\config)如下：
-![image-20210806113137876](images/image-20210806113137876.png)
+
+<img src="images/image-20210806113137876.png" alt="image-20210806113137876" style="zoom: 80%;" style="float:left" />
+
+
 
 这样配置之后，可以使用https的方式提交项目，使用密钥的方式：
 参考资料：[管理远程仓库](https://docs.github.com/cn/github/getting-started-with-github/getting-started-with-git/managing-remote-repositories)
