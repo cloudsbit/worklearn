@@ -11,8 +11,7 @@
 <img src="images\image-20210804140447184.png" alt="image-20210804140447184" style="zoom:67%;" />
 
 (4) 安装完成的一些日志记录(从中可以看出操作系统配置的一些逻辑)：
-
-<img src="images\image-20210804141528207.png" alt="image-20210804141528207" style="zoom:67%;" /><img src="images\image-20210804141158870.png" alt="image-20210804141158870" style="zoom:67%;" />
+<img src="images\image-20210804141528207.png" alt="image-20210804141528207" style="zoom:67%;" /><img src="images\image-20210804141158870.png" alt="image-20210804141158870" style="zoom:80%;" />
 
 初次开机的一些信息：
 <img src="images\image-20210804142219574.png" alt="image-20210804142219574" style="zoom:67%;" /><img src="images\image-20210804142534922.png" alt="image-20210804142534922" style="zoom:80%;" />
