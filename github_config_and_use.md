@@ -1,3 +1,5 @@
+值得仔细连接的github入门指南：https://docs.github.com/cn/github/getting-started-with-github/quickstart/set-up-git
+
 github在windows 10中配置ssh密钥：
 参数文章： [生成新 SSH 密钥并添加到 ssh-agent](https://docs.github.com/cn/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 操作步骤记录：
@@ -22,4 +24,10 @@ github在windows 10中配置ssh密钥：
 参考资料： [在HTTPS端口使用SSH：](https://docs.github.com/cn/github/authenticating-to-github/troubleshooting-ssh/using-ssh-over-the-https-port)
 ![image-20210806112244712](C:\Users\win10\AppData\Roaming\Typora\typora-user-images\image-20210806112244712.png)
 
-这样配置之后，可以使用https的方式提交项目
+windows的配置(~/.ssh/config or C:\Users\win10\.ssh\config)如下：
+![image-20210806113137876](C:\Users\win10\AppData\Roaming\Typora\typora-user-images\image-20210806113137876.png)
+
+这样配置之后，可以使用https的方式提交项目，使用密钥的方式：
+参考资料：[管理远程仓库](https://docs.github.com/cn/github/getting-started-with-github/getting-started-with-git/managing-remote-repositories)
+![image-20210806113029700](C:\Users\win10\AppData\Roaming\Typora\typora-user-images\image-20210806113029700.png)
+
