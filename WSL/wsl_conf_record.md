@@ -13,14 +13,58 @@
 **WSL的一些快捷键和相关技巧：**
 
 1. 5 tips for an awesome Windows Terminal experience：https://endjin.com/blog/2020/05/5-tips-for-an-awesome-windows-terminal-experience
-
 2. 官方blog: https://devblogs.microsoft.com/commandline/
+3. Complete list of Windows Terminal Shortcut keys: https://www.howto-connect.com/complete-list-of-windows-terminal-shortcut-keys/
 
 **2021-08-25:**
 
+### **Windows Terminal使用技巧：**
+
+1. 快捷键最重要的命令：**Ctrl+Shift+P**
+
+2.  其他重要命令：
+
+   ```bash
+   # wt直接到某个目录
+   wt -d .   // 定位到当前目录
+   # 
+   ```
+
+   
+
+3. 
+
+4. 使用**wt /?**查看Windows Terminal如下所示：
+
+![image-20210825150308836](..\images\image-20210825150308836.png)
+
+2. 查看wt下Subcommands的帮助，如**wt  new-tab --help**、  **wt  sp --help** ：
+
+   ![](..\images\image-20210825162022976.png)
+
+   
+
+命令行试用：
+
+```bash
+wt ; new-tab -p "Ubuntu-18.04" -V;
+wt ; new-tab -p "Ubuntu-18.04" --title "test";
+# 垂直创建一个
+wt ; -F split-pane -p "Ubuntu-18.04" -V --title "test"
+
+wt ; split-pane -p "ubuntu"
+
+## 
+wt ; new-tab -p "PowerShell Core" ; split-pane -p "Ubuntu" -V; split-pane -p "PowerShell Core" -H -d "C:/_Projects"
+wt ; new-tab -p "PowerShell Core" ; split-pane -p "Ubuntu" -V; split-pane -p "PowerShell Core" -H -d "C:/_Projects"
+
+## 命令行参数更详细的文档位于:
+Using command line arguments for Windows Terminal: https://docs.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=windows
+```
 
 
 
+# 
 
 
 ### 终端信息
