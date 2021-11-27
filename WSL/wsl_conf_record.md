@@ -79,6 +79,8 @@ Root: sudo su
 
 ```shell
 $ mv /etc/apt/sources.list /etc/apt/sources.list.bak
+$cd /etc/apt/sources.list.d/
+$ sudo vim aliyun.list
 # 将以下内容复制到aliyun.list中
 deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
@@ -117,7 +119,7 @@ Once unzipped, right-click the font file and click "Install for all users". This
   
 
 3. 解决版本：
-  使用GOPROXY 环境变量：
+    使用GOPROXY 环境变量：
 
   ```shell
   export GOPROXY=https://goproxy.io
